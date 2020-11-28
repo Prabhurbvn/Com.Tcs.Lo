@@ -1,0 +1,35 @@
+public class TestScript extends Testbase
+{
+    Loginpage log;
+    
+    @BeforeTest(alwaysRun=true)
+    public void Setup()
+    {
+    	 Open();
+    	log =new Loginpage();
+    }
+    
+    @Test
+    public void ValidateTitle()
+    {
+    	String str=log.VerifyTitle();
+    	Assert.assertEquals(str, "Facebook – log in or sign up");
+    }
+    
+    @Test
+    public void ValidateUrl()
+    {
+    	String s= log.VerifyUrl();
+    	Assert.assertEquals(s, "https://www.facebook.com/");
+    }
+    
+   @AfterTest
+    public void Teardown()
+    {
+    	driver.close();
+    }
+    
+   
+
+
+}
