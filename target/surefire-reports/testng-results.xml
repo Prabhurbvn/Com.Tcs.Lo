@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="63403" started-at="2020-11-27T13:44:42 IST" finished-at="2020-11-27T13:45:46 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="63403" started-at="2020-11-27T13:44:42 IST" finished-at="2020-11-27T13:45:46 IST">
+      <class name="Script.TestScript">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:Script.TestScript@5ce81285]" name="Setup" is-config="true" duration-ms="52785" started-at="2020-11-27T13:44:42 IST" finished-at="2020-11-27T13:45:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="ValidateCreate()[pri:0, instance:Script.TestScript@5ce81285]" name="ValidateCreate" duration-ms="574" started-at="2020-11-27T13:45:35 IST" finished-at="2020-11-27T13:45:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateCreate -->
+        <test-method status="PASS" signature="ValidateCreateaccount()[pri:0, instance:Script.TestScript@5ce81285]" name="ValidateCreateaccount" duration-ms="81" started-at="2020-11-27T13:45:36 IST" finished-at="2020-11-27T13:45:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateCreateaccount -->
+        <test-method status="PASS" signature="ValidateDay()[pri:0, instance:Script.TestScript@5ce81285]" name="ValidateDay" duration-ms="4596" started-at="2020-11-27T13:45:36 IST" finished-at="2020-11-27T13:45:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateDay -->
+        <test-method status="PASS" signature="ValidateMonth()[pri:0, instance:Script.TestScript@5ce81285]" name="ValidateMonth" duration-ms="185" started-at="2020-11-27T13:45:40 IST" finished-at="2020-11-27T13:45:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMonth -->
+        <test-method status="PASS" signature="ValidateRadio()[pri:0, instance:Script.TestScript@5ce81285]" name="ValidateRadio" duration-ms="233" started-at="2020-11-27T13:45:41 IST" finished-at="2020-11-27T13:45:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateRadio -->
+        <test-method status="PASS" signature="ValidateTitle()[pri:0, instance:Script.TestScript@5ce81285]" name="ValidateTitle" duration-ms="6" started-at="2020-11-27T13:45:41 IST" finished-at="2020-11-27T13:45:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTitle -->
+        <test-method status="PASS" signature="ValidateUrl()[pri:0, instance:Script.TestScript@5ce81285]" name="ValidateUrl" duration-ms="8" started-at="2020-11-27T13:45:41 IST" finished-at="2020-11-27T13:45:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateUrl -->
+        <test-method status="PASS" signature="Validateyear()[pri:0, instance:Script.TestScript@5ce81285]" name="Validateyear" duration-ms="112" started-at="2020-11-27T13:45:41 IST" finished-at="2020-11-27T13:45:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validateyear -->
+        <test-method status="PASS" signature="validateFirstname()[pri:0, instance:Script.TestScript@5ce81285]" name="validateFirstname" duration-ms="3768" started-at="2020-11-27T13:45:41 IST" finished-at="2020-11-27T13:45:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFirstname -->
+        <test-method status="PASS" signature="validateSurname()[pri:0, instance:Script.TestScript@5ce81285]" name="validateSurname" duration-ms="145" started-at="2020-11-27T13:45:45 IST" finished-at="2020-11-27T13:45:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSurname -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:Script.TestScript@5ce81285]" name="Teardown" is-config="true" duration-ms="836" started-at="2020-11-27T13:45:45 IST" finished-at="2020-11-27T13:45:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- Script.TestScript -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
